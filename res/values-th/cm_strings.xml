@@ -20,8 +20,6 @@
   <string name="recording_paused">หยุดชั่วคราวแล้ว</string>
   <!-- Label shown when recording is finished -->
   <string name="recording_finished">บันทึกเสร็จแล้ว</string>
-  <!-- Button to save the current recording -->
-  <string name="save">บันทึก</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
   <string name="error_app_unsupported">ไม่รองรับไฟล์นามสกุลนี้</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
@@ -58,4 +56,8 @@
   <string name="error_storage_access" product="default">ไม่สามารถเข้าถึง SD card ได้ กรุณาตรวจสอบว่าแอปบันทึกเสียงได้รับอนุญาตให้เข้าถึงที่เก็บข้อมูล</string>
   <string name="in_call_record_error">ไม่อนุญาตให้บันทึกเสียงขณะโทร</string>
   <string name="button_menu">ตัวเลือกเพิ่มเติม</string>
+  <string name="notification_bg_title">กำลังบันทึกเสียง</string>
+  <string name="notification_bg_content">ตัวบันทึกเสียงกำลังบันทึกอยู่\u2026</string>
+  <string name="notification_stopped_title">หยุดการบันทึกเสียงแล้ว</string>
+  <string name="notification_stopped_content">การบันทึกเสียงหยุดลงเนื่องจากมีการโทร</string>
 </resources>

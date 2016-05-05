@@ -20,8 +20,6 @@
   <string name="recording_paused">ۋاقىتلىق توختىدى</string>
   <!-- Label shown when recording is finished -->
   <string name="recording_finished">خاتىرىلەش تامام</string>
-  <!-- Button to save the current recording -->
-  <string name="save">ساقلا</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
   <string name="error_app_unsupported">قوللىمايدىغان پىچىم.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
@@ -58,4 +56,8 @@
   <string name="error_storage_access" product="default">كارتىنى زىيارەت قىلالمىدى، ئۈنئالغۇنىڭ ساقلاش بوشلۇقنى زىيارەت قىلىش ھوقۇقنى جەزىملەشتۈرۈڭ</string>
   <string name="in_call_record_error">سۆزلىشىش جەريانىدا ئاۋازغا ئېلىشقا يول قويمايدۇ.</string>
   <string name="button_menu">تېخىمۇ كۆپ تاللانما</string>
+  <string name="notification_bg_title">ئۈن ئېلىۋاتىدۇ</string>
+  <string name="notification_bg_content">ئۈنئالغۇ ئۈن ئېلىۋاتىدۇ\u2026</string>
+  <string name="notification_stopped_title">خاتىرىلەش توختىتىلدى</string>
+  <string name="notification_stopped_content">ئۈن ئېلىش توختىتىلدى، چۈنكى سىزگە تېلېفون كەلدى</string>
 </resources>

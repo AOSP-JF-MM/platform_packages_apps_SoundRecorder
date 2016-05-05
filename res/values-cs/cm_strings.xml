@@ -20,8 +20,6 @@
   <string name="recording_paused">Pozastaveno</string>
   <!-- Label shown when recording is finished -->
   <string name="recording_finished">Nahrávání dokončeno</string>
-  <!-- Button to save the current recording -->
-  <string name="save">Uložit</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
   <string name="error_app_unsupported">Nepodporovaný formát.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
@@ -58,4 +56,8 @@
   <string name="error_storage_access" product="default">Nelze získat přístup k SD kartě. Ujistěte se, že Záznam zvuku má oprávnění přistupovat k SD kartě</string>
   <string name="in_call_record_error">Zaznamenávání zvuku není povoleno během hovoru.</string>
   <string name="button_menu">Více možností</string>
+  <string name="notification_bg_title">Nahrávání zvuku</string>
+  <string name="notification_bg_content">Právě se nahrává\u2026</string>
+  <string name="notification_stopped_title">Nahrávání zastaveno</string>
+  <string name="notification_stopped_content">Nahrávání bylo zastaveno kvůli příchozímu hovoru</string>
 </resources>

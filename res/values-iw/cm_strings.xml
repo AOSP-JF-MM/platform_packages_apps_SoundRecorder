@@ -20,8 +20,6 @@
   <string name="recording_paused">מושהה</string>
   <!-- Label shown when recording is finished -->
   <string name="recording_finished">הקלטה הסתיימה</string>
-  <!-- Button to save the current recording -->
-  <string name="save">שמור</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
   <string name="error_app_unsupported">פורמט לא נתמך.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
@@ -43,19 +41,23 @@
   <string name="denied_title">הרשאות</string>
   <string name="perm_mic">הרשמקול זקוק לגישה למיקרופון על מנת להקליט שמע.</string>
   <string name="perm_storage">הרשמקול זקוק לגישה לאחסון על מנת לשמור הקלטות.</string>
-  <string name="perm_phone">הרשמקול זקוק לגישה למצב השיחה על מנת למנוע הקלטה במהלך שיחה.</string>
-  <string name="perm_micstorage">הרשמקול זקוק לגישה למיקרופון על מנת להקליט שמע וגישה לאחסון על מנת לשמור הקלטות.</string>
-  <string name="perm_micphone">הרשמקול זקוק לגישה למיקרופון על מנת להקליט שמע וגישה למצב השיחה על מנת למנוע הקלטה במהלך שיחה.</string>
-  <string name="perm_storagephone">הרשמקול זקוק לגישה לאחסון על מנת לשמור הקלטות וגישה למצב השיחה על מנת למנוע הקלטה במהלך שיחה.</string>
+  <string name="perm_phone">הרשמקול זקוק לגישה למצב השיחה כדי למנוע מהיישום להקליט במהלך שיחה.</string>
+  <string name="perm_micstorage">הרשמקול זקוק לגישה למיקרופון על מנת להקליט שמע, וגישה לאחסון על מנת לשמור הקלטות.</string>
+  <string name="perm_micphone">הרשמקול זקוק לגישה למיקרופון על מנת להקליט שמע, וגישה למצב השיחה על מנת למנוע הקלטה במהלך שיחה.</string>
+  <string name="perm_storagephone">הרשמקול זקוק לגישה לאחסון על מנת לשמור הקלטות, וגישה למצב השיחה על מנת למנוע הקלטה במהלך שיחה.</string>
   <string name="perm_allperms">הרשמקול זקוק לגישה למיקרופון על מנת להקליט שמע, גישה לאחסון על מנת לשמור הקלטות וגישה למצב השיחה על מנת למנוע הקלטה במהלך שיחה.</string>
-  <string name="perm_unknown">שגיאת הרשאות, בדוק את מצב ההרשאות בהגדרות.</string>
+  <string name="perm_unknown">שגיאת הרשאות, בדוק את מצב ההרשאות בהגדרות היישום.</string>
   <string name="ask_again">שאל שנית</string>
   <string name="dismiss">ביטול</string>
   <string name="perm_toast">ההרשאות הנדרשות נדחו, ניתן להפעיל אותן מיישום ההגדרות כדי להתחיל בהקלטה</string>
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card [CHAR LIMIT=NONE] -->
-  <string name="error_storage_access" product="nosdcard">לא ניתן לגשת לאחסון USB. אנא וודאו כי לרשמקול יש הרשאה לגשת לאחסון זה</string>
+  <string name="error_storage_access" product="nosdcard">לא ניתן לגשת לאחסון USB. ודא שיש לרשמקול הרשאה לגשת לאחסון זה</string>
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
-  <string name="error_storage_access" product="default">לא ניתן לגשת לכרטיס הזיכרון. אנא וודאו כי לרשמקול יש הרשאה לגשת לאחסון זה</string>
+  <string name="error_storage_access" product="default">לא ניתן לגשת לכרטיס הזיכרון. ודע שיש לרשמקול הרשאה לגשת לאחסון זה</string>
   <string name="in_call_record_error">לא ניתן לבצע הקלטה במהלך השיחה.</string>
   <string name="button_menu">אפשרויות נוספות</string>
+  <string name="notification_bg_title">מקליט שמע</string>
+  <string name="notification_bg_content">Sound Recorder מקליט\u2026</string>
+  <string name="notification_stopped_title">הקלטה הופסקה</string>
+  <string name="notification_stopped_content">הקלטתך הופסקה בשל שיחה</string>
 </resources>
