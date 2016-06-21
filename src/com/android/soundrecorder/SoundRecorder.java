@@ -492,6 +492,11 @@ public class SoundRecorder extends Activity
                     case FOCUS_CHANGE:
                         switch (msg.arg1) {
                             case AudioManager.AUDIOFOCUS_LOSS:
+                            /* Ideally we should pause for transient, but
+                             * the current UI design does not provide a pause mechanism
+                             * let's just stop it instead.
+                             */
+                            case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT:
                                 if (mRecorder.state() == Recorder.RECORDING_STATE) {
                                     mRecorder.stop();
                                     if (mRecorder.sampleLength() > 0) {
@@ -727,17 +732,6 @@ public class SoundRecorder extends Activity
         if (mRecorder.state() == Recorder.RECORDING_STATE) {
             clearNotification();
         }
-    }
-
-    @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
-
-        setContentView(R.layout.main);
-        initResourceRefs();
-        View menuButton = findViewById(R.id.menu_button);
-        setupFakeOverflowMenuButton(menuButton);
-        mUiHandler.post(mUpdateUiRunnable);
     }
 
     @Override
@@ -2069,6 +2063,7 @@ public class SoundRecorder extends Activity
                 .setContentIntent(pendingNotifIntent)
                 .setSmallIcon(onGoing ? R.drawable.record : R.drawable.record_disabled)
                 .setOngoing(onGoing)
+                .setAutoCancel(true)
                 .build();
 
         NotificationManager notificationmanager = (NotificationManager)
